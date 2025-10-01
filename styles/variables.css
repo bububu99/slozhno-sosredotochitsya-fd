@@ -5,7 +5,7 @@
 
 :root {
   /* Переменные для св-в шрифтов */
-  --font-family-text: 'IBM Plex mono', sans-serif;
+  --font-family-text: "IBM Plex mono", sans-serif;
   --h1-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --text-font-size: 18px;
   --bold-weight: 700;
@@ -20,7 +20,7 @@
   --accent-color: rgb(255 0 112);
   --text-color: rgb(241 178 206);
   --hover-button-color: rgb(102 0 69);
-  --rec-on-off: block; 
+  --rec-on-off: block;
 
   /* Переменные принимающие значения других */
   --angle-color: var(--accent-color);
@@ -37,5 +37,5 @@
   --images-gap: 10px;
 
   /* Паддинг для всей стрвницы */
-  --left-right-page-padding: 10px;  
+  --left-right-page-padding: 10px;
 }

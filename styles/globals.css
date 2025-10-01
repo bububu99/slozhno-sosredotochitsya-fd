@@ -32,7 +32,8 @@ ul {
 }
 
 picture,
-span {
+span,
+div {
   margin: 0;
   padding: 0;
 }
@@ -44,5 +45,3 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
-
-

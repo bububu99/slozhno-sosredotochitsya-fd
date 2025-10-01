@@ -20,17 +20,16 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-  --bg-image: url(../images/cover-image-light.png);
-  --bg-color: rgb(255 238 247);
-  --header-title-color: rgb(255 194 230);
-  --accent-color: rgb(255 141 203);
-  --text-color: rgb(53 52 48);
-  --hover-button-color: rgb(173 165 166);
-  --title-decor-text-color: var(--text-color);
-  --angle-color: var(--text-color);
-  --button-color: var(--text-color);
-  --section-title-color: var(--text-color);
-  --rec-on-off: none;
+    --bg-image: url(../images/cover-image-light.png);
+    --bg-color: rgb(255 238 247);
+    --header-title-color: rgb(255 194 230);
+    --accent-color: rgb(255 141 203);
+    --text-color: rgb(53 52 48);
+    --hover-button-color: rgb(173 165 166);
+    --title-decor-text-color: var(--text-color);
+    --angle-color: var(--text-color);
+    --button-color: var(--text-color);
+    --section-title-color: var(--text-color);
+    --rec-on-off: none;
   }
 }
-
