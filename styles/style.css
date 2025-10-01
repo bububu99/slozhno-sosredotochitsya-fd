@@ -79,6 +79,7 @@
   border: none;
   height: 26px;
   width: 70px;
+  text-transform: lowercase;
 }
 
 .header__theme-menu-button:hover {
