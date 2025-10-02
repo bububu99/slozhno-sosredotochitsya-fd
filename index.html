@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
-    <script src="./scripts/script.js"></script>
+    <script src="./scripts/script.js" defer></script>
     <meta name="color-scheme" content="dark light" />
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
@@ -20,7 +20,6 @@
   <body class="page">
     <header class="header decorated-zone">
       <span class="decorated-dark-theme-element" aria-hidden="true">REC</span>
-      <span class="decorated-dark-theme-angle angle-top"></span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -55,10 +54,9 @@
           надо
         </p>
       </div>
-      <span class="decorated-dark-theme-angle angle-bottom"></span>
     </header>
     <main class="main">
-      <section class="question">
+      <section class="content-section question">
         <h2 class="section-title">Почему сосредоточиться так сложно</h2>
         <div class="text-block text-block-question">
           <h3 class="title-decor">Многозадачность</h3>
@@ -93,9 +91,11 @@
           </p>
         </div>
       </section>
-      <section class="problems">
-        <h2 class="section-title">Что снижает концентрацию внимания?</h2>
-        <div class="text-block text-block-problems text-block-problems-multi">
+      <section class="content-section problems">
+        <h2 class="section-title section-title-problems">
+          Что снижает концентрацию внимания?
+        </h2>
+        <div class="text-block text-block-problems">
           <h3 class="title-decor">Многозадачность</h3>
           <p class="text">
             Как концентрация может снижаться из-за… концентрации? Любая
@@ -106,7 +106,7 @@
             не давать ей отдохнуть.
           </p>
         </div>
-        <div class="text-block text-block-problems text-block-problems-food">
+        <div class="text-block text-block-problems">
           <h3 class="title-decor">Еда</h3>
           <p class="text">
             «Быстрые углеводы» — сахар, белый хлеб, сладости — молниеносно
@@ -117,7 +117,7 @@
             больше быстрых углеводов.
           </p>
         </div>
-        <div class="text-block text-block-problems text-block-problems-gadget">
+        <div class="text-block text-block-problems">
           <h3 class="title-decor">Гаджеты</h3>
           <p class="text">
             Да-да, это та самая ситуация, когда на экране ноутбука — код, в
@@ -130,7 +130,7 @@
           </p>
         </div>
       </section>
-      <section class="solutions">
+      <section class="content-section solutions">
         <h2 class="section-title section-title-solutions">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
           секунд)
@@ -193,7 +193,7 @@
           </p>
         </div>
       </section>
-      <section class="pictures">
+      <section class="content-section pictures">
         <h2 class="title-decor">А можно в картинках?</h2>
         <div class="pictures-grid">
           <img
@@ -229,10 +229,8 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <span class="decorated-dark-theme-angle angle-top"></span>
+    <footer class="footer decorated-zone">
       <h2 class="header-main-title footer-title">focus</h2>
-      <span class="decorated-dark-theme-angle angle-bottom"></span>
     </footer>
   </body>
 </html>
